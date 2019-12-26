@@ -8,22 +8,6 @@ ReactDOM.render(<App />,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 APPLICATION BUILD AND CHLLANGES 
 1. How do we get feedback from the user? USER EVENTS! How do we deal with user events?
@@ -47,6 +31,17 @@ WHAT COMPONENTS WILL OUR APPLICATION NEED?
 3. We will also have an app component which will be the most root component of our application. 
 */
 
+/* onClick, onChange and onSubmit METHOD
+1. user clicks on something----> onClick
+2. user changes text in an input----->onChange
+3. user sumbits s form----->onSubmit 
+*/
 
+/*
+Uncontrolled Versus Controller Objects 
+1.
+
+
+*/
 
 
