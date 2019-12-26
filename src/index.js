@@ -39,7 +39,9 @@ WHAT COMPONENTS WILL OUR APPLICATION NEED?
 
 /*
 Uncontrolled Versus Controller Objects 
-1.
+1. See SearchBar.js 
+2. 
+3. 
 
 
 */
