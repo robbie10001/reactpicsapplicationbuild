@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom"; 
+import App from "./components/App";
 
-
-
+ReactDOM.render(<App />, 
+    document.querySelector("#root")
+    )
 
 
 
@@ -23,11 +25,10 @@ import ReactDOM from "react-dom";
 
 
 /*
-WHAT ARE WE GOING TO BE WORKING ON IN THIS APPLICATION
+APPLICATION BUILD AND CHLLANGES 
 1. How do we get feedback from the user? USER EVENTS! How do we deal with user events?
 2. How do we fetch data from some outside API or server? How to we pull data from a database?
 3. How do we show lists of records? 
-
 /*
 
 /*
@@ -38,6 +39,14 @@ OUR BUILD
 4. Version 2- We are going to do the same stuff as in version 1. 
 5. The difference will be how we show this to the user. We want to tile images across the screen. We want to figure out how to make different size images end up fitting well within our application.
 */
+
+/* 
+WHAT COMPONENTS WILL OUR APPLICATION NEED?
+1. We need a search bar component.
+2. We will also need an image list to render images to our screen. 
+3. We will also have an app component which will be the most root component of our application. 
+*/
+
 
 
 
