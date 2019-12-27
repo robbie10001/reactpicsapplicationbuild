@@ -22,7 +22,13 @@ Uncontrolled elements
 */
 
 
-state = { term: "Let's get searching!" };
+state = { term: "" };
+
+//this is an important helper function that stops pages from reloading whenever some presses enter!
+//will be need in most projects!
+onFormSubmit(event) {
+    event.preventDefault();
+};
 
 //4. After the user has entered some input, the render method runs again for a second time.
 //5. This will then overwrite whatever is within our this.state.term! 
@@ -30,7 +36,7 @@ state = { term: "Let's get searching!" };
     render () {
         return (
         <div className="ui segment">
-            <form className="ui form">
+            <form onSubmit={this.onFormSubmit} className="ui form">
                 <div className="field">
                     <label>Image Search</label>
                     <input 

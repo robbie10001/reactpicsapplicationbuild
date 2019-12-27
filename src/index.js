@@ -40,10 +40,12 @@ WHAT COMPONENTS WILL OUR APPLICATION NEED?
 /*
 Uncontrolled Versus Controller Objects 
 1. See SearchBar.js 
-2. 
-3. 
-
-
 */
 
+/* Understanding .this in JavaScript
+1. The .this keyword is used within a class to reference the class itself. 
+2. We can then use .this to access properties within our class. 
+3. The value of this in a function is determined by 
+
+*/
 
