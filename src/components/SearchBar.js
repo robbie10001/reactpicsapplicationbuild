@@ -26,8 +26,10 @@ state = { term: "" };
 
 //this is an important helper function that stops pages from reloading whenever some presses enter!
 //will be need in most projects!
-onFormSubmit(event) {
+onFormSubmit = (event) => {
     event.preventDefault();
+
+    this.props.onSubmit(this.state.term);
 };
 
 //4. After the user has entered some input, the render method runs again for a second time.
