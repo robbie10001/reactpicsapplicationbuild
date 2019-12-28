@@ -31,7 +31,8 @@ WHAT COMPONENTS WILL OUR APPLICATION NEED?
 3. We will also have an app component which will be the most root component of our application. 
 */
 
-/* onClick, onChange and onSubmit METHOD
+/* 
+onClick, onChange and onSubmit METHOD
 1. user clicks on something----> onClick
 2. user changes text in an input----->onChange
 3. user sumbits s form----->onSubmit 
@@ -61,5 +62,18 @@ MAKING A REQUEST FROM INSIDE A REACT APPLICATION
 1. To make an AJAX request, we need to use a AJAX client we can do this using either (axios- a 3rd party package) or (fetch- a function built into modern browsers).
 2. We are going to use Axios. In order to install axios we need to write the following command from the terminal
 3. npm install --save axios 
-
+4. see App.js to see how we get an API
 */
+
+/*
+HOW WE GET INFORMATION FROM OUR API TO RENDER
+1. Component renders intself one time with no list of images
+2. onSearchSubmit method called 
+3. Request is made to unsplash
+4. ...wait...
+5. Request complete
+6. Set image data on state of App component. 
+7. App component rerenders and shows images.
+*/
+
+
