@@ -76,4 +76,20 @@ HOW WE GET INFORMATION FROM OUR API TO RENDER
 7. App component rerenders and shows images.
 */
 
+/*
+CREATING MAP COMPONENTS FOR REACT 
+1. const number = [0, 1, 2, 3, 4,];
+2. let newNumbers = [];
+3. for (let i = 0; i < numbers.length; i++) {
+    newNumbers.push(numbers[i] * 10);
+}
+numbers;
+newNumbers;
+4. A map statement does exactly the same thing as we have done above.
+5. It iterates through an array and returns a brand new array. 
+6. It takes the original values and modifies them in some fashion. That's it. 
+7. numer.map(num => num * 10)
+numbers; 
+8. number 3 and number 7 are the exact same thing! 
 
+*/
