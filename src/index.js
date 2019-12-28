@@ -49,3 +49,14 @@ Uncontrolled Versus Controller Objects
 
 */
 
+/* FETCHING DATA
+1. Our application is going to be running within a users browser. 
+2. Once they enter a term and press enter we are going to be making an ajax request (network request) over to the Unsplash API.
+3, The Unsplash API will then send us back a big list of JSON records. Thie JSON will have information about pictures that match our searcb request.L0
+4. We can then take that JSON to render a list of image on our screen. 
+
+
+*/
+
+
+
