@@ -46,17 +46,20 @@ Uncontrolled Versus Controller Objects
 1. The .this keyword is used within a class to reference the class itself. 
 2. We can then use .this to access properties within our class. 
 3. The value of this in a function is determined by 
-
 */
 
-/* FETCHING DATA
+/* 
+FETCHING DATA
 1. Our application is going to be running within a users browser. 
 2. Once they enter a term and press enter we are going to be making an ajax request (network request) over to the Unsplash API.
 3, The Unsplash API will then send us back a big list of JSON records. Thie JSON will have information about pictures that match our searcb request.L0
 4. We can then take that JSON to render a list of image on our screen. 
-
-
 */
 
+/* 
+MAKING A REQUEST FROM INSIDE A REACT APPLICATION
+1. To make an AJAX request, we need to use a AJAX client we can do this using either (axios- a 3rd party package) or (fetch- a function built into modern browsers).
+2. We are going to use Axios. In order to install axios we need to write the following command from the terminal
+3. npm install --save axios 
 
-
+*/
